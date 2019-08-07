@@ -1,0 +1,41 @@
+{
+  "name": "design-system-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "gatsby": "^2.13.52",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-inlinesvg": "^1.1.5",
+    "react-player": "^1.11.1",
+    "react-scripts": "3.0.1",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "styleguide": "npx styleguidist server",
+    "styleguide-build": "npx styleguidist build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-styleguidist": "^9.1.13",
+    "webpack": "^4.39.1"
+  }
+}
