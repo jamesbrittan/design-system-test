@@ -21,3 +21,4 @@ The code example below is set in the `Readme.md` file within the component's fol
 As the Readme is markdown it's easily editable and (I think) readable by GitHub which is pretty cool.
 
 The main negative point at the moment is having to include `<ThemeProvider />` from Styled Components in each example. There may be a way around this.
+this lists a potential solution: https://medium.com/simply/3-react-styleguidist-c7f67830f40a
